@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.laba4.CheckboxesController" spacing="10" alignment="CENTER">
+    <CheckBox fx:id="checkbox1" text="Показать TextField" />
+    <TextField fx:id="widget1" promptText="Виджет 1" />
+
+    <CheckBox fx:id="checkbox2" text="Показать Label" />
+    <Label fx:id="widget2" text="Это текст" visible="false" />
+
+    <CheckBox fx:id="checkbox3" text="Показать Button" />
+    <Button fx:id="widget3" text="Это кнопка" visible="false" />
+
+</VBox>

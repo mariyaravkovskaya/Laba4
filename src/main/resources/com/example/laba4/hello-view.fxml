@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="338.0" prefWidth="247.0" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.laba4.HelloController">
+    <Text text="Добро пожаловать!" />
+    <Button fx:id="switchButton" text="Перекидыватель слов" />
+    <Button fx:id="checkboxesButton" text="Чекбоксы" />
+    <Button fx:id="flagButton" text="Текстовый флаг" />
+    <Button fx:id="restaurantMenuButton" text="Меню ресторана" />
+    <Button fx:id="calculatorButton" text="Калькулятор" />
+  </VBox>

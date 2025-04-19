@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.laba4.RestaurantMenuController">
+    <ListView fx:id="menuListView" prefHeight="200.0" prefWidth="200.0" />
+    <TextField fx:id="quantityField" promptText="Количество" />
+    <Button fx:id="addButton" text="Добавить в чек" />
+    <Button fx:id="resetButton" text="Сбросить чек" />
+    <TextArea fx:id="receiptArea" prefHeight="200.0" prefWidth="300.0" editable="false" />
+    <Label fx:id="totalLabel" text="Итого: 0 руб." />
+
+
+</VBox>
